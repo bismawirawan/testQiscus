@@ -180,7 +180,6 @@ public class Main {
 
 class FictionBookLibrary {
 	List<Book> inventory = new ArrayList<Book>();
-    List<Boolean> list;
 
 	public void addCollection(Book book, int stock) {
 		inventory.add(book);
